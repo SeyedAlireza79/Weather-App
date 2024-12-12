@@ -16,7 +16,7 @@ body {
 
 .container {
 	width: 500px;
-	height: 605px;
+	height: 105px;
 	position: relative;
 	background: #fff;
 	overflow: hidden;
@@ -177,6 +177,7 @@ body {
 }
 
 .not-found {
+	display: none;
 	width: 100%;
 	text-align: center;
 	margin-top: 50px;
