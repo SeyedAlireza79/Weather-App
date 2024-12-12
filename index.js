@@ -13,6 +13,8 @@ search.addEventListener('click', () => {
 	const APIKey = '1d2b972bfccb23e9d1715c18849c6ad5';
 	const city = document.querySelector('.search-box input').value;
 
+	error404.style.display = 'none';
+
 	if (city === '') {
 		error404.style.display = 'none';
 		error404.classList.remove('fadeIn');
